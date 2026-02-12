@@ -3,13 +3,23 @@ namespace ParkhausApp;
 
 public partial class Stock1Page : ContentPage
 {
-    
+    //Variable für Buttonklicks und hat bis jetzt kein Wert
     Button? gewaehlterPlatz = null;
 
 
     public Stock1Page()
     {
         InitializeComponent();
+        ParkingState.Free1 = Preferences.Get("Stock1_Free", 12);//holt den Wert von Aktuellen freie plätze
+        int saved = Preferences.Get("Stock1_Parked", 0);//holt den Wert von Parknummer sonst ist es 0
+        if (saved == 0)
+        {
+            ParkingState.Stock1Parked = null;
+        }
+        else
+        {
+            ParkingState.Stock1Parked = saved;
+        }
         //aktualisiert den freie plätzen
         freiePlaezeLabel.Text = $"Freie Plätze: {ParkingState.Free1}";
     }
@@ -55,6 +65,7 @@ public partial class Stock1Page : ContentPage
     
     private void OnConfirmClicked(object sender, EventArgs e)
     {
+        
 
         //schütz vor crashe wenn kei parkplatz ausgewählt wurde ist
         if (gewaehlterPlatz == null) return;
@@ -67,6 +78,18 @@ public partial class Stock1Page : ContentPage
 
         ParkingState.Stock1Parked = number;
         ParkingState.Free1--;
+
+        Preferences.Set("Stock1_Free", ParkingState.Free1);//Das aktuelle Wert wird Lokal gespeichert
+
+        if (ParkingState.Stock1Parked == null) //wenn kein parkplatz gespeichert ist
+        {
+            Preferences.Set("Stock1_Parked", 0);//kein Parktplatz gespeichert
+        }
+        else
+        {
+            Preferences.Set("Stock1_Parked", ParkingState.Stock1Parked.Value);//aktuellen wert
+        }
+
         freiePlaezeLabel.Text = $"Freie Plätze: {ParkingState.Free1}";
 
         foreach (var element in PlacesGrid.Children)

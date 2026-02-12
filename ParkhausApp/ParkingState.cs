@@ -8,6 +8,7 @@ namespace ParkhausApp;
 
 public static class ParkingState
 {
+    //welche Parknummer geparkt ist
    public static int? Stock1Parked { get; set; } //kann Null sein entweder geparkt oder nicht
     public static int? Stock2Parked { get; set; }
     //Freie plätze

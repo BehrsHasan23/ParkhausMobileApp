@@ -12,7 +12,7 @@ namespace ParkhausApp
         private async void OnStock1ParkenClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Stock1Page());
-
+            
         }
         private async void OnStock2ParkenClicked(object sender, EventArgs e)
         {

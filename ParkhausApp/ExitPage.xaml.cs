@@ -45,6 +45,10 @@ public partial class ExitPage : ContentPage
         }
         ParkingState.Stock1Parked = null;
         ParkingState.Free1++;
+
+        Preferences.Set("Stock1_Free", ParkingState.Free1);
+        Preferences.Set("Stock1_Parked", 0);
+
         Stock1ParkLabel.Text = "Geparkt: -";
         AusfahrtLabel.IsVisible = true;
     }
@@ -58,6 +62,10 @@ public partial class ExitPage : ContentPage
         }
         ParkingState.Stock2Parked = null;
         ParkingState.Free2++;
+
+        Preferences.Set("Stock2_Free", ParkingState.Free2);
+        Preferences.Set("Stock2_Parked", 0);
+
         Stock2ParkLabel.Text = "Geparkt: -";
         AusfahrtLabel.IsVisible = true;
     }
