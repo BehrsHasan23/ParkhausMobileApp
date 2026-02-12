@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ParkhausApp.Stock1Page">
+             x:Class="ParkhausApp.Stock1Page"
+             Title="Stock1Page">
+    <!--Behrs Hasan-->
     <!--Montag angefangen bis Mittwoch-->
     <ScrollView>
         <VerticalStackLayout>
@@ -12,6 +14,11 @@
 
         <Label x:Name="freiePlaezeLabel"
                Text="Freie Plätze: 12"
+               HorizontalOptions="Center"
+               FontSize="14"
+               TextColor="Gray" />
+
+        <Label Text="Wählen Sie einen Park aus"
                HorizontalOptions="Center"
                FontSize="14"
                TextColor="Gray" />

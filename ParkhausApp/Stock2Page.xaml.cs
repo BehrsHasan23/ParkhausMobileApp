@@ -1,8 +1,11 @@
+//Behrs Hasan
 namespace ParkhausApp;
 
 public partial class Stock2Page : ContentPage
 {
+    //Variable für Buttonklicks und hat kei Wert bis jetzt
     Button? gewaehlterPlatz = null;
+
     public Stock2Page()
 	{
 		InitializeComponent();
@@ -37,6 +40,7 @@ public partial class Stock2Page : ContentPage
             return;
         }
 
+        //wir speichern das geklickte button in gewaehlterPlatz
         gewaehlterPlatz = btn;
 
         gewaehlterPlatz.BackgroundColor = Colors.Green;

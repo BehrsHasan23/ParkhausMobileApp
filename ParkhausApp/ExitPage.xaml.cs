@@ -46,6 +46,7 @@ public partial class ExitPage : ContentPage
         ParkingState.Stock1Parked = null;
         ParkingState.Free1++;
         Stock1ParkLabel.Text = "Geparkt: -";
+        AusfahrtLabel.IsVisible = true;
     }
     //Stock2
     private async void OnExitStock2Clicked(object sender, EventArgs e)
@@ -58,6 +59,7 @@ public partial class ExitPage : ContentPage
         ParkingState.Stock2Parked = null;
         ParkingState.Free2++;
         Stock2ParkLabel.Text = "Geparkt: -";
+        AusfahrtLabel.IsVisible = true;
     }
 
 }

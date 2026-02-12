@@ -45,6 +45,14 @@
                 </Grid>
             </Frame>
 
+            <Label x:Name="AusfahrtLabel"
+                   Text="Ausfahrt erfolgreich"
+                   HorizontalOptions="Center"
+                   IsVisible="False"
+                   FontSize="14"
+                   TextColor="Gray" />
+            
+
 
             <Button x:Name="closeButton"
                     Margin="10"

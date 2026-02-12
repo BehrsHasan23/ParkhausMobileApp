@@ -1,4 +1,5 @@
-﻿namespace ParkhausApp;
+﻿//Behrs Hasan
+namespace ParkhausApp;
 
 public partial class Stock1Page : ContentPage
 {
@@ -11,7 +12,6 @@ public partial class Stock1Page : ContentPage
         InitializeComponent();
         //aktualisiert den freie plätzen
         freiePlaezeLabel.Text = $"Freie Plätze: {ParkingState.Free1}";
-
     }
     private async void CloseButton_Clicked(object sender, EventArgs e)
     {
@@ -45,7 +45,7 @@ public partial class Stock1Page : ContentPage
         gewaehlterPlatz = btn;
         
         gewaehlterPlatz.BackgroundColor = Colors.Green;
-        confirmButton.IsVisible = true;
+        confirmButton.IsVisible = true;// Dann wird es sichtbar sein den ConfirmButton
 
         foreach (var element in PlacesGrid.Children)
             if (element is Button b && b != gewaehlterPlatz)
@@ -68,8 +68,6 @@ public partial class Stock1Page : ContentPage
         ParkingState.Stock1Parked = number;
         ParkingState.Free1--;
         freiePlaezeLabel.Text = $"Freie Plätze: {ParkingState.Free1}";
-
-
 
         foreach (var element in PlacesGrid.Children)
             if (element is Button b && b != gewaehlterPlatz)

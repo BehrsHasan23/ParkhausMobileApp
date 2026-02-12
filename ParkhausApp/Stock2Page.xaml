@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ParkhausApp.Stock2Page"
              Title="Stock2Page">
+    <!--Behrs Hasan-->
     <!--Mittwoch erarbeitet ist ähnlich mit der Stock1Page aber es hat ansatt 1 habe ich 2 gewechselt-->
     <ScrollView>
         <VerticalStackLayout>
@@ -13,6 +14,12 @@
 
             <Label x:Name="freiePlaezeLabel"
                    Text="Freie Plätze: 12"
+                   HorizontalOptions="Center"
+                   FontSize="14"
+                   TextColor="Gray" />
+
+
+            <Label Text="Wählen Sie einen Park aus"
                    HorizontalOptions="Center"
                    FontSize="14"
                    TextColor="Gray" />
@@ -40,11 +47,11 @@
                 <Button Text="12" Clicked="OnParkplatzClicked" CommandParameter="12" Grid.Row="3" Grid.Column="2"/>
             </Grid>
             <Button x:Name="confirmButton"
-                Text="Diesen Parkplatz parken?"
-                IsVisible="False"
-                Margin="20"
-                WidthRequest="200"
-                Clicked="OnConfirmClicked" />
+                    Text="Diesen Parkplatz parken?"
+                    IsVisible="False"
+                    Margin="20"
+                    WidthRequest="200"
+                    Clicked="OnConfirmClicked" />
 
             <Label x:Name="statusLabel"
                    Text=""
