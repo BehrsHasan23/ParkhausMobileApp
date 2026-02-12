@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\stock1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\stock1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\stock2page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\stock2page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\stock1page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\stock1page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\stock2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\stock2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\parkingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\parkingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\exitpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\exitpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|c:\\users\\41764\\source\\repos\\parkhausapp\\parkhausapp\\exitpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7643A16-E4F1-4B9F-9FB5-A0C5BD86089A}|ParkhausApp\\ParkhausApp.csproj|solutionrelative:parkhausapp\\exitpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stock1Page.xaml",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock1Page.xaml",
+              "RelativeDocumentMoniker": "ParkhausApp\\Stock1Page.xaml",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock1Page.xaml",
+              "RelativeToolTip": "ParkhausApp\\Stock1Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T07:51:03.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stock2Page.xaml",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock2Page.xaml",
+              "RelativeDocumentMoniker": "ParkhausApp\\Stock2Page.xaml",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock2Page.xaml",
+              "RelativeToolTip": "ParkhausApp\\Stock2Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T12:10:08.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stock1Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock1Page.xaml.cs",
+              "RelativeDocumentMoniker": "ParkhausApp\\Stock1Page.xaml.cs",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock1Page.xaml.cs",
+              "RelativeToolTip": "ParkhausApp\\Stock1Page.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwDoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:40:42.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stock2Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock2Page.xaml.cs",
+              "RelativeDocumentMoniker": "ParkhausApp\\Stock2Page.xaml.cs",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\Stock2Page.xaml.cs",
+              "RelativeToolTip": "ParkhausApp\\Stock2Page.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:11:32.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ParkhausApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\MainPage.xaml",
+              "RelativeToolTip": "ParkhausApp\\MainPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T07:50:20.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ParkhausApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\MauiProgram.cs",
+              "RelativeToolTip": "ParkhausApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T07:49:55.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ParkingState.cs",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\ParkingState.cs",
+              "RelativeDocumentMoniker": "ParkhausApp\\ParkingState.cs",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\ParkingState.cs",
+              "RelativeToolTip": "ParkhausApp\\ParkingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T13:12:15.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExitPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\ExitPage.xaml.cs",
+              "RelativeDocumentMoniker": "ParkhausApp\\ExitPage.xaml.cs",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\ExitPage.xaml.cs",
+              "RelativeToolTip": "ParkhausApp\\ExitPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:23:00.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExitPage.xaml",
+              "DocumentMoniker": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\ExitPage.xaml",
+              "RelativeDocumentMoniker": "ParkhausApp\\ExitPage.xaml",
+              "ToolTip": "C:\\Users\\41764\\source\\repos\\ParkhausApp\\ParkhausApp\\ExitPage.xaml",
+              "RelativeToolTip": "ParkhausApp\\ExitPage.xaml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-11T12:22:57.018Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

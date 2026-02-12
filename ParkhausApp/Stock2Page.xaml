@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkhausApp.Stock2Page"
+             Title="Stock2Page">
+    <!--Mittwoch erarbeitet ist ähnlich mit der Stock1Page aber es hat ansatt 1 habe ich 2 gewechselt-->
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Stock 2"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label x:Name="freiePlaezeLabel"
+                   Text="Freie Plätze: 12"
+                   HorizontalOptions="Center"
+                   FontSize="14"
+                   TextColor="Gray" />
+
+            <Grid x:Name="PlacesGrid"
+                  ColumnDefinitions="*,*,*"
+                  RowDefinitions="*,*,*,*"
+                  ColumnSpacing="5"
+                  RowSpacing="10">
+
+                <Button Text="1" Clicked="OnParkplatzClicked" CommandParameter="1"/>
+                <Button Text="2" Clicked="OnParkplatzClicked" CommandParameter="2" Grid.Column="1"/>
+                <Button Text="3" Clicked="OnParkplatzClicked" CommandParameter="3" Grid.Column="2"/>
+
+                <Button Text="4" Clicked="OnParkplatzClicked" CommandParameter="4" Grid.Row="1"/>
+                <Button Text="5" Clicked="OnParkplatzClicked" CommandParameter="5" Grid.Row="1" Grid.Column="1"/>
+                <Button Text="6" Clicked="OnParkplatzClicked" CommandParameter="6" Grid.Row="1" Grid.Column="2"/>
+
+                <Button Text="7" Clicked="OnParkplatzClicked" CommandParameter="7" Grid.Row="2"/>
+                <Button Text="8" Clicked="OnParkplatzClicked" CommandParameter="8" Grid.Row="2" Grid.Column="1"/>
+                <Button Text="9" Clicked="OnParkplatzClicked" CommandParameter="9" Grid.Row="2" Grid.Column="2"/>
+
+                <Button Text="10" Clicked="OnParkplatzClicked" CommandParameter="10" Grid.Row="3"/>
+                <Button Text="11" Clicked="OnParkplatzClicked" CommandParameter="11" Grid.Row="3" Grid.Column="1"/>
+                <Button Text="12" Clicked="OnParkplatzClicked" CommandParameter="12" Grid.Row="3" Grid.Column="2"/>
+            </Grid>
+            <Button x:Name="confirmButton"
+                Text="Diesen Parkplatz parken?"
+                IsVisible="False"
+                Margin="20"
+                WidthRequest="200"
+                Clicked="OnConfirmClicked" />
+
+            <Label x:Name="statusLabel"
+                   Text=""
+                   HorizontalOptions="Center" />
+
+            <Button x:Name="closeButton"
+                    Margin="10"
+                    WidthRequest="140"
+                    Text="Zurück"
+                    Clicked="CloseButton_Clicked"></Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkhausApp.ExitPage"
+             Title="Ausfahrt">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Label Text="Ausfahrt"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Hier siehst du, wo du geparkt hast."
+                   FontSize="14"
+                   TextColor="Gray"
+                   HorizontalOptions="Center" />
+
+            <!-- Stock 1 -->
+            <Frame CornerRadius="12" Padding="15" HasShadow="True" BackgroundColor="LightBlue">
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="Stock 1" FontAttributes="Bold" />
+                        <Label x:Name="Stock1ParkLabel" Text="Geparkt: -" />
+                    </VerticalStackLayout>
+
+                    <Button Text="Ausfahrt"
+                            Grid.Column="1"
+                            Clicked="OnExitStock1Clicked"/>
+                </Grid>
+            </Frame>
+
+            <!-- Stock 2 -->
+            <Frame CornerRadius="12" Padding="15" HasShadow="True" BackgroundColor="LightBlue">
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="Stock 2" FontAttributes="Bold" />
+                        <Label x:Name="Stock2ParkLabel" Text="Geparkt: -" />
+                    </VerticalStackLayout>
+
+                    <Button Text="Ausfahrt"
+                            Grid.Column="1"
+                            Clicked="OnExitStock2Clicked"/>
+                </Grid>
+            </Frame>
+
+
+            <Button x:Name="closeButton"
+                    Margin="10"
+                    WidthRequest="140"
+                    Text="Zurück"
+                    Clicked="CloseButton_Clicked">
+            </Button>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

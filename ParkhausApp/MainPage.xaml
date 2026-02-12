@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkhausApp.MainPage">
+<!--Montag angefangen bis Mittwoch-->
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="Parkhaus Übersicht"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="Black" />
+            
+            <Label Text="Wähle einen Stock aus, um freie Plätze zu sehen."
+                   HorizontalOptions="Center"
+                   FontSize="14"
+                   TextColor="Gray" />
+            <!--Stock1-->
+            <Frame CornerRadius="12"
+                   Padding="15"
+                   BackgroundColor="LightBlue"
+                   HasShadow="True">
+                
+                <Grid ColumnDefinitions="*,4*,Auto">
+                    
+                    <Label Text="Stock 1"
+                           VerticalOptions="Center"/>
+
+                    <Label x:Name="Free1Label"
+                           Text="Freie Plätze: 12"
+                           Grid.Column="1"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center" />
+
+                    <Button x:Name="Stock1PageButton"
+                            Text="Parken"
+                            Grid.Column="2"
+                            VerticalOptions="Center"
+                            CornerRadius="12"
+                            Clicked="OnStock1ParkenClicked">
+                        
+                    </Button>
+                </Grid>
+            </Frame>
+            <!--Stock2-->
+            <Frame CornerRadius="12"
+                   Padding="15"
+                   BackgroundColor="LightBlue"
+                   HasShadow="True">
+
+                <Grid ColumnDefinitions="*,4*,Auto">
+
+                    <Label Text="Stock 2"
+                           VerticalOptions="Center"/>
+
+                    <Label x:Name="Free2Label"
+                           Text="Freie Plätze: 12"
+                           Grid.Column="1"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Parken"
+                            Grid.Column="2"
+                            VerticalOptions="Center"
+                            CornerRadius="12"
+                            Clicked="OnStock2ParkenClicked">
+                    </Button>
+                </Grid>
+            </Frame>
+
+           
+            <!--Ausfahrt Button-->
+            <Frame CornerRadius="12"
+                    Padding="15"
+                    BackgroundColor="LightBlue"
+                    HasShadow="True">   
+
+                    <Button x:Name="ExitPageButton"
+                             Text="Parken"
+                             VerticalOptions="Center"
+                             CornerRadius="12"
+                             Clicked="OnExitPageClicked">
+
+                    </Button>
+                
+            </Frame>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
