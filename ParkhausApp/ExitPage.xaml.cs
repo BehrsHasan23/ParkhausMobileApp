@@ -11,6 +11,7 @@ public partial class ExitPage : ContentPage
         await Navigation.PopAsync();
 
     }
+    //läuft automatisch 
     protected override void OnAppearing()
     {
         base.OnAppearing();
@@ -43,10 +44,12 @@ public partial class ExitPage : ContentPage
             await DisplayAlert("Fehler", "Du hast nichts geparkt!", "OK");
             return;
         }
+        //Parkplatz ist frei => null
         ParkingState.Stock1Parked = null;
         ParkingState.Free1++;
-
+        //aktuelle Freieplätze
         Preferences.Set("Stock1_Free", ParkingState.Free1);
+        //kein Parkplatz ist belegt
         Preferences.Set("Stock1_Parked", 0);
 
         Stock1ParkLabel.Text = "Geparkt: -";

@@ -28,7 +28,7 @@ public partial class Stock2Page : ContentPage
     }
     private async void OnParkplatzClicked(object sender, EventArgs e)
     {
-        if (ParkingState.Stock1Parked != null || ParkingState.Stock2Parked != null)//nur eine Stock pakieren mehr nicht
+        if (ParkingState.Stock1Parked != null)//nur eine Stock pakieren mehr nicht
         {
             await DisplayAlert("Schon geparkt", "Du hast bereits einen Parkplatz belegt.", "OK");
             return;
@@ -42,13 +42,6 @@ public partial class Stock2Page : ContentPage
 
         var btn = (Button)sender;
 
-
-        // Falls voll
-        if (ParkingState.Free2 <= 0)
-        {
-            await DisplayAlert("Voll", "Keine freien Plätze mehr!", "OK");
-            return;
-        }
 
         //wir speichern das geklickte button in gewaehlterPlatz
         gewaehlterPlatz = btn;

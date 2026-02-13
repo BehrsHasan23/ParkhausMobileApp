@@ -25,6 +25,7 @@ namespace ParkhausApp
 
         }
         //Aktuelle Freie Parkplätze 
+        //läuft automatisch 
         protected override void OnAppearing()
         {
             base.OnAppearing();

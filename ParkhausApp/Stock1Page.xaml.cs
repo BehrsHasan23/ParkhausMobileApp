@@ -11,7 +11,7 @@ public partial class Stock1Page : ContentPage
     {
         InitializeComponent();
         ParkingState.Free1 = Preferences.Get("Stock1_Free", 12);//holt den Wert von Aktuellen freie plätze
-        int saved = Preferences.Get("Stock1_Parked", 0);//holt den Wert von Parknummer sonst ist es 0
+        int saved = Preferences.Get("Stock1_Parked", 0);//holt den Wert von Parknummer wenn nicht gespeichert dann 0
         if (saved == 0)
         {
             ParkingState.Stock1Parked = null;
@@ -30,7 +30,7 @@ public partial class Stock1Page : ContentPage
     }
     private async void OnParkplatzClicked(object sender, EventArgs e)
     {
-        if (ParkingState.Stock1Parked != null || ParkingState.Stock2Parked != null)//nur eine Stock pakieren mehr nicht
+        if (ParkingState.Stock2Parked != null)//nur eine Stock pakieren mehr nicht
         {
             await DisplayAlert("Schon geparkt", "Du hast bereits einen Parkplatz belegt.", "OK");
             return;
@@ -45,20 +45,13 @@ public partial class Stock1Page : ContentPage
         var btn = (Button)sender;
        
 
-        // Falls es voll ist
-        if (ParkingState.Free1 <= 0)
-        {
-            await DisplayAlert("Voll", "Keine freien Plätze mehr!", "OK");
-            return;
-        }
-
         gewaehlterPlatz = btn;
         
         gewaehlterPlatz.BackgroundColor = Colors.Green;
         confirmButton.IsVisible = true;// Dann wird es sichtbar sein den ConfirmButton
 
         foreach (var element in PlacesGrid.Children)
-            if (element is Button b && b != gewaehlterPlatz)
+            if (element is Button b && b != gewaehlterPlatz)//nicht geklickte button
                 b.IsEnabled = false;
     }
 
